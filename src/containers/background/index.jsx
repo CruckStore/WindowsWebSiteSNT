@@ -131,12 +131,12 @@ export const LockScreen = (props) => {
     >
       <div className="splashScreen mt-40" data-faded={lock}>
         <div className="text-6xl font-semibold text-gray-100">
-          {new Date().toLocaleTimeString("fr-FR", {
-            hour: "numeric",
-            minute: "numeric",
-            hour12: false,
-          })}
-        </div>
+        {new Date().toLocaleTimeString("fr-FR", {
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: false,
+        })}
+      </div>
         <div className="text-lg font-medium text-gray-200">
           {new Date().toLocaleDateString(undefined, {
             weekday: "long",

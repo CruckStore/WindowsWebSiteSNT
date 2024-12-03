@@ -160,8 +160,8 @@ const Taskbar = () => {
           >
             <div>
               {time.toLocaleTimeString("en-US", {
-                hour: "numeric",
-                minute: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
               })}
             </div>
             <div>
