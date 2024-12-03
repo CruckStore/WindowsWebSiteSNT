@@ -182,7 +182,7 @@ export const Explorer = () => {
         app={wnapp.action}
         icon={wnapp.icon}
         size={wnapp.size}
-        name="File Explorer"
+        name="Explorateur de Fichier"
       />
       <div className="windowScreen flex flex-col">
         <Ribbon />

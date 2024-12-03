@@ -149,7 +149,7 @@ export const MicroStore = () => {
         app={wnapp.action}
         icon={wnapp.icon}
         size={wnapp.size}
-        name="Store"
+        name="Magasin"
       />
       <div className="windowScreen flex">
         <LazyComponent show={!wnapp.hide}>
@@ -235,7 +235,7 @@ const DownPage = ({ action, apps }) => {
         </div>
         <div className="absolute right-0 mr-4 text-sm">
           <a
-            href="https://win11react-docs.andrewstech.me/docs/Store/add-app"
+            href="https://win11react-docs.andrewstech.me/docs/Magasin/add-app"
             className="catbtn"
             target="_blank"
             rel="noreferrer"

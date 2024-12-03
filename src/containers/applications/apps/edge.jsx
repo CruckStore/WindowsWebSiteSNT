@@ -112,7 +112,7 @@ export const EdgeMenu = () => {
         app={wnapp.action}
         icon={wnapp.icon}
         size={wnapp.size}
-        name="Browser"
+        name="Navigateur"
         float
       />
       <div className="windowScreen flex flex-col">
