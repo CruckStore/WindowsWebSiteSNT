@@ -66,9 +66,8 @@ export const AboutWin = () => {
         <p>{t("about.microsoftcopywrite")}.</p>
       </div>
       <div className="okbtn px-6 py-4">
-        <div data-allow={timer == 0} onClick={timer == 0 && action}>
-          {t("about.understand")}{" "}
-          {timer > 0 ? <span>{`( ${timer} )`}</span> : null}
+        <div data-allow={true} onClick={action}>
+          {t("about.understand")}
         </div>
       </div>
     </div>
