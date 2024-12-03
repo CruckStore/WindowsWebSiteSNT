@@ -102,23 +102,6 @@ const apps = [
     action: "OOBE",
   },
   {
-    name: "Groove Music",
-    icon: "groove",
-    type: "app",
-  },
-  {
-    name: "Help",
-    icon: "help",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://github.com/CruckStore/WebsiteWindowsRemadeReact",
-  },
-  {
-    name: "Yammer",
-    icon: "yammer",
-    type: "app",
-  },
-  {
     name: "Mail",
     icon: "mail",
     type: "app",
@@ -208,18 +191,6 @@ const apps = [
     type: "app",
   },
   {
-    name: "Snipping Tool",
-    icon: "snip",
-    type: "app",
-  },
-  {
-    name: "Twitter",
-    icon: "twitter",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://twitter.com/blueedgetechno",
-  },
-  {
     name: "Teams",
     icon: "teams",
     type: "app",
@@ -265,20 +236,6 @@ const apps = [
     name: "Cortana",
     icon: "cortana",
     type: "app",
-  },
-  {
-    name: "Github",
-    icon: "github",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://github.com/CruckStore/Cruck-Store",
-  },
-  {
-    name: "Unescape",
-    icon: "unescape",
-    type: "action",
-    action: "EXTERNAL",
-    payload: "https://blueedge.me/unescape",
   },
   {
     name: "Discord",
