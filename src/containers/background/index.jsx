@@ -148,7 +148,7 @@ export const LockScreen = (props) => {
       <div className="fadeinScreen" data-faded={!lock} data-unlock={unlocked}>
         <Image
           className="rounded-full overflow-hidden"
-          src="img/asset/prof.jpg"
+          src="https://media.discordapp.net/attachments/1145969339665764392/1313532830931746876/prof.jpg?ex=67507a47&is=674f28c7&hm=f276bf5810911bcd1c10e3eba4c5e60b6a2e830966bb14d5f53a8361797fe19b&=&format=webp&width=662&height=662"
           w={200}
           ext
         />
