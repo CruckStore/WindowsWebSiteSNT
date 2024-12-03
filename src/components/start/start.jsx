@@ -328,7 +328,7 @@ export const StartMenu = () => {
                       fill="currentColor"
                     />
                   </svg>
-                  <span>Restart</span>
+                  <span>Redémarrer</span>
                 </div>
               </div>
               <svg
