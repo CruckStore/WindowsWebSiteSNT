@@ -10,7 +10,7 @@ import dirs from "./assets/dir.json";
 export const WnTerminal = () => {
   const wnapp = useSelector((state) => state.apps.terminal);
   const [stack, setStack] = useState(["OS [Version 10.0.22000.51]", ""]);
-  const [pwd, setPwd] = useState("C:\\Users\\Gtol");
+  const [pwd, setPwd] = useState("C:\\Users\\Arthur");
   const [lastCmd, setLsc] = useState(0);
   const [wntitle, setWntitle] = useState("Terminal");
 
@@ -215,7 +215,7 @@ export const WnTerminal = () => {
         tmpStack.push("6\t\tBrown");
         tmpStack.push("7\t\tLight Gray");
         tmpStack.push("8\t\tDark Gray");
-        tmpStack.push("9\t\tLight Gtol");
+        tmpStack.push("9\t\tLight Arthur");
         tmpStack.push("A\t\tLight Green");
         tmpStack.push("B\t\tLight Cyan");
         tmpStack.push("C\t\tLight Red");
@@ -291,7 +291,7 @@ export const WnTerminal = () => {
         "OS Manufacturer:           ",
         "OS Configuration:          Standalone Workstation",
         "OS Build Type:             Multiprocessor Free",
-        "Registered Owner:          Gtol",
+        "Registered Owner:          Arthur",
         "Registered Organization:   N/A",
         "Product ID:                7H1S1-5AP1R-473DV-3R5I0N",
       ];
@@ -352,7 +352,7 @@ export const WnTerminal = () => {
     let code = "#000000";
     /*
 			0: Black
-			1: Gtol
+			1: Arthur
 			2: Green
 			3: Cyan
 			4: Red
@@ -360,7 +360,7 @@ export const WnTerminal = () => {
 			6: Brown
 			7: Light Gray
 			8: Dark Gray
-			9: Light Gtol
+			9: Light Arthur
 			A: Light Green
 			B: Light Cyan
 			C: Light Red

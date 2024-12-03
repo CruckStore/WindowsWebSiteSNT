@@ -74,9 +74,9 @@
               "Public Videos": {}
             }
           },
-          "Gtol": {
+          "Arthur": {
             "type": "folder",
-            "name": "Gtol",
+            "name": "Arthur",
             "info": {
               "spid": "%user%",
               "icon": "user"
