@@ -131,10 +131,10 @@ export const LockScreen = (props) => {
     >
       <div className="splashScreen mt-40" data-faded={lock}>
         <div className="text-6xl font-semibold text-gray-100">
-          {new Date().toLocaleTimeString("en-US", {
+          {new Date().toLocaleTimeString("fr-FR", {
             hour: "numeric",
             minute: "numeric",
-            hour12: true,
+            hour12: false,
           })}
         </div>
         <div className="text-lg font-medium text-gray-200">
@@ -169,7 +169,7 @@ export const LockScreen = (props) => {
             onChange={action}
             data-action="inpass"
             onKeyDown={action2}
-            placeholder={passType ? "Password" : "PIN"}
+            placeholder={passType ? "Mot de passe" : "PIN"}
             className="signInBtn passwordInput mt-2 p-2 text-center"
           />
         </div>
@@ -185,7 +185,7 @@ export const LockScreen = (props) => {
           onClick={() => setForget(!forgot)}
         >
           {!forgot
-            ? `I forgot my ${passType ? "password" : "pin"}`
+            ? `J'ai oublié mon ${passType ? "password" : "pin"}`
             : "Force à toi -1000 aura"}
         </div>
       </div>

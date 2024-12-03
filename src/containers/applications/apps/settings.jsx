@@ -250,10 +250,10 @@ export const Settings = () => {
                           return (
                             <div className="timeTop">
                               <h1>
-                                {new Date().toLocaleTimeString("en-US", {
+                                {new Date().toLocaleTimeString("fr-FR", {
                                   hour: "numeric",
                                   minute: "numeric",
-                                  hour12: true,
+                                  hour12: false,
                                 })}
                               </h1>
                             </div>

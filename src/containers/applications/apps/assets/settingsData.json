@@ -239,8 +239,8 @@
     },
     {
       "type": "tile",
-      "name": "Lock screen",
-      "desc": "Lock screen images, apps, animations",
+      "name": "Verrouiller screen",
+      "desc": "Verrouiller screen images, apps, animations",
       "icon": ""
     },
     {

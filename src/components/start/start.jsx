@@ -290,7 +290,7 @@ export const StartMenu = () => {
                       fill="currentColor"
                     />
                   </svg>
-                  <span>Lock</span>
+                  <span>Verrouiller</span>
                 </div>
                 <div
                   className="flex prtclk items-center gap-2"
@@ -309,7 +309,7 @@ export const StartMenu = () => {
                       fill="currentColor"
                     />
                   </svg>
-                  <span>Shut down</span>
+                  <span>Arrêter</span>
                 </div>
                 <div
                   className="flex prtclk items-center gap-2"
