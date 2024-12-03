@@ -99,7 +99,7 @@ export const LockScreen = (props) => {
   };
 
   const proceed = () => {
-    const correctPassword = "1234z";
+    const correctPassword = "1234";
 
     if (password === correctPassword) {
       // Si le mot de passe est correct
