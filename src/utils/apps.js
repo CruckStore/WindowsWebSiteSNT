@@ -113,7 +113,7 @@ const apps = [
     icon: "expose",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://docs.google.com/presentation/d/1qHQ0rLE76bn-1F9LUfYa6BgwdZ2Sgpc4HdEBmX4h8Eg/edit#slide=id.p",
+    payload: "https://docs.google.com/presentation/d/1y451N2y1grZ7tjueSfuvQLGSJwc4i68H0xEfb5kB-s0/edit?usp=sharing",
   },
   {
     name: "Movies",
