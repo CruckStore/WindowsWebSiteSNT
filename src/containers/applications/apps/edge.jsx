@@ -11,13 +11,11 @@ export const EdgeMenu = () => {
   const dispatch = useDispatch();
 
   const iframes = {
-    "https://chatgpt.com/": "Google",
-    "https://www.google.com/webhp?igu=1": "ChatGPT",
+    "https://www.google.com/webhp?igu=1": "Google",
+    "https://chatgpt.com/": "ChatGPT",
     "https://bing.com": "Bing",
     "https://www.youtube.com/?themeRefresh=1": "Youtube",
-    "https://win11.blueedge.me": "Inception",
-    "https://open.spotify.com/":
-      "Spotify",
+    "https://open.spotify.com/": "Spotify",
   };
 
   const favicons = {
