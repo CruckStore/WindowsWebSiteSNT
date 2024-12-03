@@ -53,7 +53,7 @@ const apps = [
     action: "WNSTORE",
   },
   {
-    name: "Recycle Bin",
+    name: " Bin",
     icon: "bin0",
     type: "app",
   },
@@ -107,6 +107,13 @@ const apps = [
     type: "app",
     action: "EXTERNAL",
     payload: "mailto:gtolontop@gmail.com",
+  },
+  {
+    name: "Exposé",
+    icon: "mail",
+    type: "app",
+    action: "EXTERNAL",
+    payload: "https://googleslide",
   },
   {
     name: "Movies",
