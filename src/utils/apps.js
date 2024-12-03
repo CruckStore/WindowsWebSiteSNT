@@ -109,11 +109,11 @@ const apps = [
     payload: "mailto:gtolontop@gmail.com",
   },
   {
-    name: "Exposé",
-    icon: "mail",
+    name: "Expose",
+    icon: "expose",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://googleslide",
+    payload: "https://docs.google.com/presentation/d/1qHQ0rLE76bn-1F9LUfYa6BgwdZ2Sgpc4HdEBmX4h8Eg/edit#slide=id.p",
   },
   {
     name: "Movies",
